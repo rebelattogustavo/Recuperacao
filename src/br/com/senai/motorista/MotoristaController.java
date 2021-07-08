@@ -131,9 +131,9 @@ public class MotoristaController {
 
 		System.out.println("\n");
 		System.out.println("-----------------------------------");
-		System.out.println("| 1-> NOME DO MOTORISTA           |");
-		System.out.println("| 2-> IDADE DO MOTORISTA          |");
-		System.out.println("| 3-> CATEGORIA CNH               |");
+		System.out.println("| 1) NOME DO MOTORISTA           ");
+		System.out.println("| 2) IDADE DO MOTORISTA          ");
+		System.out.println("| 3) CATEGORIA CNH               ");
 		System.out.println("-----------------------------------");
 		System.out.print("Informe a opção desejada -> ");
 		int opcao = in.nextInt();

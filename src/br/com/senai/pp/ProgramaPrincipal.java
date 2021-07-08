@@ -25,9 +25,9 @@ public class programaPrincipal {
 		do {
 
 			System.out.println("-----------------------------------");
-			System.out.println("| 1-> MENU DE VEICULOS            |");
-			System.out.println("| 2-> MENU DE MOTORISTAS          |");
-			System.out.println("| 0-> SAIR                        |");
+			System.out.println("| 1) MENU DE VEICULOS            ");
+			System.out.println("| 2) MENU DE MOTORISTAS          ");
+			System.out.println("| 0) SAIR                        ");
 			System.out.println("-----------------------------------");
 			System.out.print("Informe a opção desejada -> ");
 			int opcao = in.nextInt();

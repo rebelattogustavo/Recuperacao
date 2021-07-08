@@ -119,11 +119,11 @@ public class VeiculoController {
 
 		System.out.println("\n");
 		System.out.println("-----------------------------------");
-		System.out.println("| 1-> NOME DO VEICULO             |");
-		System.out.println("| 2-> PLACA DO VEICULO            |");
-		System.out.println("| 3-> ANO DO VEICULO              |");
-		System.out.println("| 4-> TIPO DE COMBUSTIVEL         |");
-		System.out.println("| 5-> MARCA DO VEICULO            |");
+		System.out.println("| 1) NOME DO VEICULO             ");
+		System.out.println("| 2) PLACA DO VEICULO            ");
+		System.out.println("| 3) ANO DO VEICULO              ");
+		System.out.println("| 4) TIPO DE COMBUSTIVEL         ");
+		System.out.println("| 5) MARCA DO VEICULO            ");
 		System.out.println("-----------------------------------");
 		System.out.print("Informe a opção desejada -> ");
 		int opcao = in.nextInt();
@@ -228,9 +228,9 @@ public class VeiculoController {
 		String modelo = veiculos.get(idVeiculo).getModelo();
 
 		for (int i = 0; i < motoristas.size(); i++) {
-			String motoristaEVeiculo = motoristas.get(i).getVeiculo().getModelo();
+			String motoristaveiculo = motoristas.get(i).getVeiculo().getModelo();
 
-			if (motoristaEVeiculo.equals(modelo)) {
+			if (motoristaveiculo.equals(modelo)) {
 				System.out.print("\n");
 				System.out.println("Não foi possivel excluir o veiculo!");
 				return;
